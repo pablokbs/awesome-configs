@@ -169,7 +169,11 @@ vicious.register(batwidget, vicious.widgets.bat,
 		if args[2] == 0 then return ""
 		else
 			baticon.image = image(beautiful.widget_bat)
-			return "<span color='white'>".. args[2] .. "%</span>"
+			if args[2] >= 20 then 
+				return '<span color="white">'.. args[2] .. "%</span>"
+			else
+				return "<span color='#93cc93'>".. args[2] .. "%</span>"
+			end
 		end
 	end, 61, "BAT0"
 )
