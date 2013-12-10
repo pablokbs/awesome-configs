@@ -14,4 +14,4 @@ memtext_format = " $1%" -- %1 percentage, %2 used %3 total %4 free
 
 date_format = "%A %d-%m-%Y %k:%M" -- refer to http://en.wikipedia.org/wiki/Date_(Unix) specifiers
 
-networks = {'eno1', 'wlo1', 'wlp0s2f1u2'} -- Add your devices network interface here netwidget, only show one that works
+networks = {'eno1', 'wlo1', 'enp10s1'} -- Add your devices network interface here netwidget, only show one that works
